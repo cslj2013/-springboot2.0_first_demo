@@ -1,15 +1,13 @@
 package com.springboot2demo;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 //@RestController
-//@SpringBootApplication //或使用@EnableAutoConfiguration配置
-@EnableAutoConfiguration //自动配置,根据pom文件引入的依赖信息,自动配置对应的组件;扫包范围，默认在当前类中
-@ComponentScan("com.springboot2demo") //指定扫描范围
+//@EnableAutoConfiguration //自动配置,根据pom文件引入的依赖信息,自动配置对应的组件;扫包范围，默认在当前类中
+//@ComponentScan("com.springboot2demo") //指定扫描范围
+//@ComponentScan(basePackages= {"com.springboot2demo.first","com.springboot2demo.second"}) //多包扫描
+@SpringBootApplication //或使用@EnableAutoConfiguration+@ComponentScan配置;@SpringBootApplication范围默认当前类所在包及子包下所有类
 public class FirstApplication {
 
 	/**
