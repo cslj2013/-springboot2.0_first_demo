@@ -21,5 +21,11 @@
   		<artifactId>spring-boot-starter-web</artifactId>
   		<!-- 不需要写版本号，因为在parent中已封装好版本号 -->
   	</dependency>
+  	
+  	<!-- freemarker依赖包 -->
+  	<dependency>
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot-starter-freemarker</artifactId>
+  	</dependency>
   </dependencies>
 </project>
