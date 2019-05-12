@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.springboot2</groupId>
-  <artifactId>springboot2_first_</artifactId>
+  <artifactId>springboot2_first_demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <!-- spring-boot-starter-parent 整合第三方常用框架依赖信息(包含各种依赖信息) -->
